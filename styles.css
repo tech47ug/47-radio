@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+audio {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

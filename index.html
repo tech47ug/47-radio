@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Radio Station</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>47 media uganda</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Programs</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Morning Show</a></li>
+                        <li><a href="#">Evening Show</a></li>
+                        <li><a href="#">Night Show</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to 47 Radio Uganda</h2>
+            <p>Listen to the best music and shows online!</p>
+            <audio controls>
+                <source src="http://localhost:8000/live" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 47 media uganda. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
